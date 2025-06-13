@@ -1,0 +1,42 @@
+{
+    "hero": {
+      "title": "Build Your Digital Identity with Nawale Infotech",
+      "subtitle": "From websites to business tools — we create, manage, and support your online journey.",
+      "exploreServices": "Explore Services",
+      "getConsultation": "Get a Free Consultation"
+    },
+    "services": {
+      "title": "Our Services",
+      "websiteDevelopment": {
+        "title": "Website Development",
+        "desc": "Responsive & SEO-friendly websites tailored for your business."
+      },
+      "billingSoftware": {
+        "title": "Billing Software",
+        "desc": "Invoicing & sales tracking apps customized for local needs."
+      },
+      "websiteManagement": {
+        "title": "Website Management",
+        "desc": "Ongoing support, maintenance & content updates."
+      },
+      "postDeployment": {
+        "title": "Post Deployment Support",
+        "desc": "We stay with you after launch to handle technical needs."
+      }
+    },
+    "cta": {
+      "title": "Ready to take your business online?",
+      "subtitle": "Let’s build something amazing together.",
+      "button": "Contact Us"
+    },
+    
+    "brand": "Nawale Infotech",
+        "nav": {
+          "home": "Home",
+          "services": "Services",
+          "portfolio": "Portfolio",
+          "contact": "Contact"
+        }
+    
+  }
+  
