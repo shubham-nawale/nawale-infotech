@@ -15,7 +15,7 @@ function App() {
       <Header />
       <div className="p-4">
         <Routes>
-          <Route path="/nawaleinfotech" element={<Home />} />
+          <Route path="/nawale-infotech" element={<Home />} />
           <Route path="/services" element={<Services />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />

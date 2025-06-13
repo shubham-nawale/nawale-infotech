@@ -2,7 +2,7 @@
   "name": "nawale-infotech",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://shubham-nawale.github.io/nawaleinfotech",
+  "homepage": "https://shubham-nawale.github.io/nawale-infotech",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",

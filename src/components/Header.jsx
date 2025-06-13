@@ -9,7 +9,7 @@ const Header = () => {
   const location = useLocation();
 
   const navItems = [
-    { path: '/nawaleinfotech', label: t('nav.home') },
+    { path: '/nawale-infotech', label: t('nav.home') },
     { path: '/services', label: t('nav.services') },
     { path: '/portfolio', label: t('nav.portfolio') },
     { path: '/contact', label: t('nav.contact') }
