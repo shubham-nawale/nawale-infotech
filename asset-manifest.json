@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/nawale-infotech/static/css/main.eaa16dfb.css",
+    "main.js": "/nawale-infotech/static/js/main.8ba8d06a.js",
+    "static/js/453.5b718090.chunk.js": "/nawale-infotech/static/js/453.5b718090.chunk.js",
+    "index.html": "/nawale-infotech/index.html",
+    "main.eaa16dfb.css.map": "/nawale-infotech/static/css/main.eaa16dfb.css.map",
+    "main.8ba8d06a.js.map": "/nawale-infotech/static/js/main.8ba8d06a.js.map",
+    "453.5b718090.chunk.js.map": "/nawale-infotech/static/js/453.5b718090.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.eaa16dfb.css",
+    "static/js/main.8ba8d06a.js"
+  ]
+}
