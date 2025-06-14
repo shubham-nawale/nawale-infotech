@@ -5,7 +5,7 @@ const projects = [
   {
     title: 'Mandap Billing App',
     desc: 'A mobile-first app in Marathi for mandap decorators to manage bills and orders.',
-    image: '/images/mandap.png'
+    image: 'https://raw.githubusercontent.com/shubham-nawale/photos/refs/heads/main/photo-1710273327096-ad95a91a8f68.avif'
   },
   {
     title: 'School Management System',
