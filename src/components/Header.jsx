@@ -19,9 +19,19 @@ const Header = () => {
     <header className="bg-white/80 backdrop-blur shadow-md sticky top-0 z-50">
       <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
-        <h1 className="text-2xl font-extrabold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent tracking-wide">
-          <Link to="/">{t('brand')}</Link>
-        </h1>
+        <Link to="/nawale-infotech" className="flex items-center gap-3">
+        <img
+            src= "https://github.com/shubham-nawale/photos/blob/main/logo.png?raw=true"
+            alt="Logo"
+            className="h-10 w-10 object-contain"
+          />
+
+  <span className="text-2xl font-extrabold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent tracking-wide">
+    {t('brand')}
+  </span>
+</Link>
+
+
 
         {/* Desktop Nav */}
         <div className="hidden md:flex items-center gap-6">

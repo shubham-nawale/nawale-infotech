@@ -10,12 +10,12 @@ const projects = [
   {
     title: 'School Management System',
     desc: 'A role-based online platform for managing school data, attendance, fees, and communication.',
-    image: '/images/school.png'
+    image: 'https://github.com/shubham-nawale/photos/blob/main/sms.png?raw=true'
   },
   {
     title: 'Website for Local Businesses',
     desc: 'Simple SEO-friendly websites for small businesses to showcase their services.',
-    image: '/images/website.png'
+    image: 'https://github.com/shubham-nawale/photos/blob/main/sms.jpg?raw=true'
   }
 ];
 
