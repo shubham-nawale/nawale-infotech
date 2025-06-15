@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import emailjs from 'emailjs-com';
-import ReCAPTCHA from 'react-google-recaptcha';
 import { FiMail, FiPhone, FiLinkedin, FiFacebook, FiTwitter } from 'react-icons/fi';
 
 const Contact = () => {
