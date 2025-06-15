@@ -16,24 +16,21 @@ const Header = () => {
   ];
 
   return (
-    <header className="bg-white/80 backdrop-blur shadow-md sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
-        {/* Logo */}
-        <Link to="/nawale-infotech" className="flex items-center gap-3">
-        <img
-            src= "https://github.com/shubham-nawale/photos/blob/main/logo.png?raw=true"
+    <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur shadow-md">
+      <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
+        {/* Logo + Brand */}
+        <Link to="/nawale-infotech" className="flex items-center gap-2 sm:gap-3">
+          <img
+            src="https://github.com/shubham-nawale/photos/blob/main/NawaleInfotech%20Logo1.png?raw=true"
             alt="Logo"
-            className="h-10 w-10 object-contain"
+            className="h-10 w-10 sm:h-12 sm:w-12 object-contain"
           />
+          <span className="text-xl sm:text-2xl font-extrabold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent tracking-wide">
+            {t('brand')}
+          </span>
+        </Link>
 
-  <span className="text-2xl font-extrabold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent tracking-wide">
-    {t('brand')}
-  </span>
-</Link>
-
-
-
-        {/* Desktop Nav */}
+        {/* Desktop Navigation */}
         <div className="hidden md:flex items-center gap-6">
           <nav className="flex gap-6 text-gray-700 font-medium">
             {navItems.map((item, index) => (
@@ -41,7 +38,9 @@ const Header = () => {
                 key={index}
                 to={item.path}
                 className={`relative group transition-colors duration-300 ${
-                  location.pathname === item.path ? 'text-blue-600' : 'hover:text-blue-600'
+                  location.pathname === item.path
+                    ? 'text-blue-600'
+                    : 'hover:text-blue-600'
                 }`}
               >
                 {item.label}
@@ -52,9 +51,8 @@ const Header = () => {
           <LanguageSwitcher />
         </div>
 
-        {/* Mobile Icon */}
+        {/* Mobile Toggle + Language Switcher Right Aligned */}
         <div className="md:hidden flex items-center gap-3">
-          <LanguageSwitcher />
           <button
             onClick={() => setIsOpen(!isOpen)}
             className="text-3xl text-gray-700 focus:outline-none"
@@ -64,27 +62,29 @@ const Header = () => {
         </div>
       </div>
 
-      {/* Mobile Menu */}
-      <div
-        className={`md:hidden transition-all duration-300 overflow-hidden ${
-          isOpen ? 'max-h-60' : 'max-h-0'
-        }`}
-      >
-        <div className="bg-white px-4 pt-2 pb-4 space-y-3 text-gray-700 font-medium border-t border-gray-200">
+      {/* Mobile Nav */}
+      {isOpen && (
+        <div className="md:hidden bg-white border-t border-gray-200 px-4 pt-3 pb-4 space-y-3 text-gray-700 font-medium">
           {navItems.map((item, index) => (
             <Link
               key={index}
               to={item.path}
               onClick={() => setIsOpen(false)}
-              className={`block transition-colors ${
-                location.pathname === item.path ? 'text-blue-600' : 'hover:text-blue-600'
+              className={`block ${
+                location.pathname === item.path
+                  ? 'text-blue-600'
+                  : 'hover:text-blue-600'
               }`}
             >
               {item.label}
             </Link>
           ))}
+          {/* Mobile Language Switcher Below Menu Items */}
+          <div className="pt-2">
+            <LanguageSwitcher />
+          </div>
         </div>
-      </div>
+      )}
     </header>
   );
 };

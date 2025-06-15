@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { HashRouter  as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
 import Home from './pages/Home';
 import Services from './pages/Services';
@@ -11,18 +11,19 @@ import { HelmetProvider } from 'react-helmet-async';
 function App() {
   return (
     <HelmetProvider>
-    <Router>
-      <Header />
-      <div className="p-4">
-        <Routes>
-          <Route path="/nawale-infotech" element={<Home />} />
-          <Route path="/services" element={<Services />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-        </Routes>
-      </div>
-      <Footer />
-    </Router>
+      <Router>
+        <Header />
+        {/* Add padding top to avoid content hiding behind sticky header */}
+        <div className="pt-24 px-4 max-w-7xl mx-auto">
+          <Routes>
+            <Route path="/nawale-infotech" element={<Home />} />
+            <Route path="/services" element={<Services />} />
+            <Route path="/portfolio" element={<Portfolio />} />
+            <Route path="/contact" element={<Contact />} />
+          </Routes>
+        </div>
+        <Footer />
+      </Router>
     </HelmetProvider>
   );
 }
