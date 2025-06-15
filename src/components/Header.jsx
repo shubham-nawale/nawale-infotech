@@ -16,7 +16,7 @@ const Header = () => {
   ];
 
   return (
-    <header className="fixed top-0 left-0 right-0 z-50 bg-white/90 backdrop-blur shadow-md">
+    <header className="fixed top-0 left-0 right-0 z-50 bg-slate-200 backdrop-blur shadow-md">
       <div className="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between">
         {/* Logo + Brand */}
         <Link to="/nawale-infotech" className="flex items-center gap-2 sm:gap-3">
