@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nawale-infotech/static/css/main.b8630871.css",
-    "main.js": "/nawale-infotech/static/js/main.96a0f7cc.js",
+    "main.css": "/nawale-infotech/static/css/main.df668f0b.css",
+    "main.js": "/nawale-infotech/static/js/main.12338d7b.js",
     "static/js/453.5b718090.chunk.js": "/nawale-infotech/static/js/453.5b718090.chunk.js",
     "index.html": "/nawale-infotech/index.html",
-    "main.b8630871.css.map": "/nawale-infotech/static/css/main.b8630871.css.map",
-    "main.96a0f7cc.js.map": "/nawale-infotech/static/js/main.96a0f7cc.js.map",
+    "main.df668f0b.css.map": "/nawale-infotech/static/css/main.df668f0b.css.map",
+    "main.12338d7b.js.map": "/nawale-infotech/static/js/main.12338d7b.js.map",
     "453.5b718090.chunk.js.map": "/nawale-infotech/static/js/453.5b718090.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b8630871.css",
-    "static/js/main.96a0f7cc.js"
+    "static/css/main.df668f0b.css",
+    "static/js/main.12338d7b.js"
   ]
 }
