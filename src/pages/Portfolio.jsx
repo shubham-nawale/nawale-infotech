@@ -4,15 +4,15 @@ import { useTranslation } from 'react-i18next';
 const projects = [
   {
     key: 'mandapBillingApp',
-    image: 'src/photos/mandapDecoration.jpg'
+    image: '/photos/mandapDecoration.jpg'
   },
   {
     key: 'schoolManagementSystem',
-    image: 'src/photos/sms.png'
+    image: '/photos/sms.png'
   },
   {
     key: 'websiteLocalBusinesses',
-    image: 'src/photos/sms.jpg'
+    image: '/photos/sms.jpg'
   }
 ];
 
