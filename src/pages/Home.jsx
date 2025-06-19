@@ -24,7 +24,7 @@ const Home = () => {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-gradient-to-r from-blue-900/90 to-transparent z-10"></div>
           <img
-            src="/photos/background.jpg"
+            src="/background.jpg"
             alt="Digital Transformation"
             className="w-full h-full object-cover object-top"
           />
