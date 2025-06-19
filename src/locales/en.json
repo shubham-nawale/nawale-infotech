@@ -1,0 +1,89 @@
+{
+    "hero": {
+      "title": "Build Your Digital Identity with Nawale Infotech",
+      "subtitle": "From websites to business tools — we create, manage, and support your online journey. We help businesses transform their digital presence with cutting-edge web solutions, strategic marketing, and innovative growth strategies tailored to your unique needs.",
+      "exploreServices": "Explore Our Services",
+      "getConsultation": "Get a Free Consultation"
+    },
+    "services": {
+      "title": "Our Services",
+      "websiteDevelopment": {
+        "title": "Website Development",
+        "desc": "Custom-built, responsive websites designed to convert visitors into customers and showcase your brand."
+      },
+      "billingSoftware": {
+        "title": "Billing Software",
+        "desc": "Simplify your billing with customized, user-friendly invoicing and GST-ready solutions."
+      },
+      "websiteManagement": {
+        "title": "Website Management",
+        "desc": "Ongoing updates, maintenance, and performance optimization for your online presence."
+      },
+      "postDeployment": {
+        "title": "Post Deployment Support",
+        "desc": "Continued technical support and upgrades after your project goes live."
+      },
+      "digitalMarketing": {
+        "title": "Digital Marketing",
+        "desc": "Strategic SEO, content marketing, and social media campaigns to boost your online visibility and engagement."
+      },
+      "businessGrowth": {
+        "title": "Business Growth Solutions",
+        "desc": "Data-driven strategies to identify opportunities, optimize operations, and accelerate your business growth."
+      },
+      "digitalTransformation": {
+        "title": "Digital Transformation",
+        "desc": "End-to-end digital solutions to modernize your business processes and enhance customer experiences."
+      }
+    },  
+    "cta": {
+      "title": "Ready to take your business online?",
+      "subtitle": "Let’s build something amazing together.",
+      "button": "Contact Us"
+    },
+    
+    "brand": "Nawale Infotech",
+        "nav": {
+          "home": "Home",
+          "services": "Services",
+          "portfolio": "Portfolio",
+          "contact": "Contact"
+        },
+        "contact": {
+          "title": "Get in Touch",
+          "description": "Ready to transform your digital presence? Contact us today to discuss your project.",
+          "firstName": "First Name",
+          "lastName": "Last Name",
+          "email": "Email",
+          "company": "Company Name",
+          "phone": "Contact Number",
+          "message": "Your Message",
+          "notRobot": "I'm not a robot",
+          "submit": "Send Message",
+          "success": "Message sent successfully!",
+          "sendError": "Failed to send message. Try again later.",
+          "robotError": "Please confirm you are not a robot.",
+          "reachUs": "Reach us at:",
+          "phoneLabel": "Phone",
+          "emailLabel": "Email",
+          "socialLabel": "Follow us on"
+        },
+        "portfolio": {
+          "title": "Our Projects",
+          "projects": {
+            "mandapBillingApp": {
+              "title": "Mandap Billing App",
+              "desc": "A mobile-first app in Marathi for mandap decorators to manage bills and orders."
+            },
+            "schoolManagementSystem": {
+              "title": "School Management System",
+              "desc": "A role-based online platform for managing school data, attendance, fees, and communication."
+            },
+            "websiteLocalBusinesses": {
+              "title": "Website for Local Businesses",
+              "desc": "Simple SEO-friendly websites for small businesses to showcase their services."
+            }
+          }
+        }
+  }
+  
