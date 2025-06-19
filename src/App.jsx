@@ -7,6 +7,7 @@ import Portfolio from './pages/Portfolio';
 import Contact from './pages/Contact';
 import WhatsUp from './components/WhatsUpButton';
 import Footer from './components/Footer';
+import GoogleAds from './components/GoogleAds';
 import './i18n'; 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
         </div>
         <WhatsUp />
         <Footer />
+        <GoogleAds />
       </Router>
       );
 }
