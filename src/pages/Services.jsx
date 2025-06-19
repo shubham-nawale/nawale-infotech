@@ -60,11 +60,11 @@ const Services = () => {
               {service.title}
             </h3>
             <p className="text-gray-600 text-sm">{service.desc}</p>
-            <button
+            {/* <button
               className="text-blue-600 font-medium hover:text-blue-800 flex items-center justify-center mt-4"
             >
               Learn More <i className="fas fa-arrow-right ml-2"></i>
-            </button>
+            </button> */}
           </div>
         ))}
       </div>

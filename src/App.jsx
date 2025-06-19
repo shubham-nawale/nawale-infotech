@@ -24,8 +24,8 @@ function App() {
           </Routes>
         </div>
         <WhatsUp />
-        <Footer />
         <GoogleAds />
+        <Footer />
       </Router>
       );
 }
